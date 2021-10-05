@@ -1,0 +1,8 @@
+{
+    "ZEST_CORE_STM32H753ZI": {
+        "inherits": [
+            "MCU_STM32H753xI"
+        ],
+        "device_name": "STM32H753ZITx"
+    }
+}

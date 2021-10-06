@@ -227,12 +227,12 @@ typedef enum {
 #ifdef MBED_CONF_TARGET_STDIO_UART_TX
     CONSOLE_TX = MBED_CONF_TARGET_STDIO_UART_TX,
 #else
-    CONSOLE_TX = Px_x,
+    CONSOLE_TX = PB_14,
 #endif
 #ifdef MBED_CONF_TARGET_STDIO_UART_RX
     CONSOLE_RX = MBED_CONF_TARGET_STDIO_UART_RX,
 #else
-    CONSOLE_RX = Px_x,
+    CONSOLE_RX = PB_15,
 #endif
 
     /**** USB FS pins ****/
@@ -327,8 +327,8 @@ typedef enum {
 } PinName;
 
 // Standardized LED and button names
-// #define LED1     Px_x   // TODO
-// #define BUTTON1  Px_x   // TODO
+#define LED1     PB_7
+#define BUTTON1  PH_3
 
 #ifdef __cplusplus
 }

@@ -28,6 +28,7 @@
             "USBDEVICE"
         ],
         "overrides": {
+            "clock_source": "USE_PLL_HSE_XTAL",
             "network-default-interface-type": "ETHERNET"
         },
         "device_name": "STM32H753ZITx"

@@ -333,7 +333,6 @@ typedef enum {
 
 // Standardized LED and button names
 #define LED1     PB_7
-#define BUTTON1  PH_3
 
 #ifdef __cplusplus
 }

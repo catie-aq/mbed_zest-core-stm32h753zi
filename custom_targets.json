@@ -1,24 +1,4 @@
 {
-    "MCU_STM32H753xI": {
-        "inherits": [
-            "MCU_STM32H7"
-        ],
-        "public": false,
-        "core": "Cortex-M7FD",
-        "mbed_rom_start": "0x08000000",
-        "mbed_rom_size": "0x200000",
-        "mbed_ram_start": "0x24000000",
-        "mbed_ram_size": "0x80000",
-        "extra_labels_add": [
-            "STM32H753xI"
-        ],
-        "macros_add": [
-            "STM32H753xx"
-        ],
-        "overrides": {
-            "system_power_supply": "PWR_LDO_SUPPLY"
-        }
-    },
     "ZEST_CORE_STM32H753ZI": {
         "inherits": [
             "MCU_STM32H753xI"
